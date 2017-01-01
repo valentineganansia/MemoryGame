@@ -1,0 +1,39 @@
+.btn{
+	background-color:rgb(255, 80, 80);
+	font-family: times;
+	font-size: 18px;
+}
+.jumbotron{
+background-color:rgb(255, 226, 40);
+}
+body{
+	background-color: rgb(255, 40, 65);
+}
+
+div#myBoard{
+    height: 600px;
+}
+
+.card{
+
+	cursor:pointer;
+	background-image:  url('../MemoryGame/images/color.jpg');
+	border:1px solid;
+	height:100%;
+	margin-left: 7%;
+
+	background-size: auto 100%; /*auto c'est la largeur, 100% cest la hauteur */
+	background-position: center;
+
+-webkit-box-shadow: 9px 9px 42px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 42px -12px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 42px -12px rgba(0,0,0,0.75);
+
+
+}
+
+.row{
+	margin-bottom: 2%;
+	height: 32%;
+
+}
