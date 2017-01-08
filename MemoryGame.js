@@ -80,7 +80,7 @@ function control(){
 	gamePaused=false; // on a observe donc ça repart 
 	console.log(gamePaused);
 
-	},300);	//if we dont have a match we show the back card. 
+	},500);	//if we dont have a match we show the back card. 
 	
 	}
 	if (hit==imgArray.length/2){

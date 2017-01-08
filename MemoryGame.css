@@ -19,8 +19,10 @@ div#myBoard{
 	cursor:pointer;
 	background-image:  url('../MemoryGame/images/color.jpg');
 	border:1px solid;
-	height:100%;
-	margin-left: 7%;
+	width: 135px;
+	height:135px;
+
+
 
 	background-size: auto 100%; /*auto c'est la largeur, 100% cest la hauteur */
 	background-position: center;
@@ -34,6 +36,7 @@ box-shadow: 9px 9px 42px -12px rgba(0,0,0,0.75);
 
 .row{
 	margin-bottom: 2%;
-	height: 32%;
+	height: 21%;
+	margin-left: 26px;
 
 }
